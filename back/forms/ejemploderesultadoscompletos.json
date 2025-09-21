@@ -1,0 +1,60 @@
+[
+    [
+        {
+            "ID de sala": 23269,
+            "ID de formulario": 28,
+            "ID participacion": 76,
+            "Nombre participante": "Ruben",
+            "Calificacion": 0,
+            "Ruta del resultado": "C:\\Users\\JAVI_\\OneDrive\\Documentos\\GitHub\\active-classroom\\back\\forms\\resultados\\resultado_formulario_1_23269.json",
+            "Respuesta pregunta 0": 1,
+            "Tiempo pregunta 0": 4,
+            "Respuesta pregunta 1": 1,
+            "Tiempo pregunta 1": 1
+        },
+        {
+            "ID de sala": 23269,
+            "ID de formulario": 28,
+            "ID participacion": 78,
+            "Nombre participante": "Juan",
+            "Calificacion": 0,
+            "Ruta del resultado": "C:\\Users\\JAVI_\\OneDrive\\Documentos\\GitHub\\active-classroom\\back\\forms\\resultados\\resultado_formulario_3_23269.json",
+            "Respuesta pregunta 0": 0,
+            "Tiempo pregunta 0": 6,
+            "Respuesta pregunta 1": 1,
+            "Tiempo pregunta 1": 4
+        }
+    ],
+    {
+        "salaid": "23269",
+        "userId": "2",
+        "username": "Manuel",
+        "tituloform": "Intento",
+        "questions": [
+            {
+                "numero": 1,
+                "tipo": "quiz",
+                "question": "¿MelaShaco?",
+                "options": [
+                    "No",
+                    "No",
+                    "Sí",
+                    "No"
+                ],
+                "correctAnswerIndex": 2,
+                "tiempo": 10,
+                "retroalimentacion": "si",
+                "valor": "dos-puntos"
+            },
+            {
+                "numero": 2,
+                "tipo": "verdadero-falso",
+                "question": "¿Shaco Besto Champ?",
+                "correctAnswerIndex": 0,
+                "tiempo": 10,
+                "retroalimentacion": "si",
+                "valor": "cinco-puntos"
+            }
+        ]
+    }
+]

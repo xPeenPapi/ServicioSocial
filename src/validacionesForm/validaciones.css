@@ -1,0 +1,21 @@
+.valid {
+  border: 2px solid rgb(5, 173, 94) !important;
+  background-color: rgb(146, 255, 188) !important;
+}
+
+.invalid {
+  border: 2px solid red !important;
+  background-color: rgb(255, 210, 217) !important;
+}
+
+.span {
+  font-size: 0.5rem;
+}
+
+.span:empty {
+  display: none;
+}
+
+.error-message {
+  color: red;
+}

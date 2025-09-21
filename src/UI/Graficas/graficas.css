@@ -1,0 +1,189 @@
+:root {
+  --primary-font-color: #fff;
+  --primary-color: rgb(48, 193, 130);
+  --primary-color-transparent: rgb(118, 211, 171);
+  --side-bar-bg: rgb(27, 179, 113);
+}
+
+.raiz-dashboard-grafica,
+.raiz-cuestionarios-estadisticas {
+  max-height: 100vh;
+}
+
+.circular {
+  border-radius: 0.25rem;
+}
+
+.seccion-cuestionarios {
+  max-height: 100vh;
+  background-color: var(--primary-color);
+}
+
+.seccion-cuestionario-interno {
+  max-height: 620px;
+  overflow-y: auto;
+  scrollbar-color: var(--primary-color) var(--primary-font-color);
+}
+
+.elemento-cuestionario {
+  background-color: var(--primary-color-transparent);
+}
+
+.sombra-graficas {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.contenedor-grafica-pie {
+  max-width: 250px;
+}
+
+.contenedor-grafica,
+.contenedor-grafica-pie {
+  margin: 0 auto;
+}
+
+.contenedor-grafica {
+  max-width: 100%;
+}
+
+.barra-lateral {
+  max-width: 90px;
+  background-color: var(--side-bar-bg);
+  max-height: 100vh;
+}
+
+.titulo-icono {
+  font-size: 0.75rem;
+}
+
+.dialog-exportar {
+  border: none;
+}
+
+.contenedor-seccion-estadisticas-2 {
+  max-height: 100vh;
+  overflow-y: auto;
+  scrollbar-color: var(--primary-color) var(--primary-font-color);
+  flex: 1;
+}
+
+/* Contenedor flotante perfil*/
+
+.foto-perfil {
+  position: relative;
+}
+
+.info-perfil {
+  position: fixed;
+  left: 0;
+  transform: translateX(30%);
+  background-color: var(--primary-font-color);
+  min-width: 200px;
+}
+
+.foto {
+  background-color: black;
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+}
+
+.btn-cerrar-sesion {
+  background-color: var(--primary-color);
+  font-size: 0.75rem;
+}
+
+.imagen-perfil {
+  border-radius: 100%;
+}
+
+/* Media queries */
+
+@media only screen and (max-width: 992px) {
+  /* Barra lateral en pantallas medianas y pequeñas */
+  .barra-lateral {
+    max-width: 100%;
+    overflow-x: auto;
+    padding: 1rem !important;
+    scrollbar-width: none;
+  }
+
+  .contenedor-iconos {
+    flex-direction: row !important;
+    justify-content: space-around;
+    width: 100%;
+  }
+
+  .contenedor-icono-interno > p {
+    margin: 0 !important;
+    font-size: 0.6rem;
+  }
+
+  .contenedor-icono-interno > img {
+    width: 25px;
+    height: 25px;
+  }
+
+  .raiz-cuestionarios-estadisticas {
+    flex-direction: column;
+  }
+
+  .raiz-cuestionarios-estadisticas,
+  .seccion-estadisticas,
+  .contenedor-seccion-estadisticas-2 {
+    max-height: none !important;
+  }
+
+  .seccion-estadisticas-interno {
+    height: 100%;
+  }
+
+  .seccion-cuestionario-interno {
+    max-width: 100%;
+    overflow-x: auto;
+    scrollbar-width: none;
+    flex-direction: row !important;
+  }
+
+  .titulos-cuestionario p,
+  .carta-grafica p {
+    font-size: 0.8rem;
+  }
+
+  .contenedor-fecha p {
+    font-size: 0.7rem;
+  }
+
+  .titulos-cuestionario h3 {
+    font-size: 1.3rem;
+  }
+
+  .info-perfil {
+    top: 5%;
+    transform: translateX(20%);
+  }
+}
+
+/* Pantallas pequeñas, el header me dió muchos problemas, gracias bootstrap (sarcasmo) */
+@media only screen and (max-width: 405px) {
+  .contenedor-icono-interno > p {
+    margin: 0 !important;
+    font-size: 0.5rem;
+  }
+
+  .contenedor-icono-interno > img {
+    width: 25px;
+    height: 25px;
+  }
+
+  .contenedor-iconos {
+    gap: 2rem !important;
+  }
+}
+
+.full-height {
+  min-height: 100vh;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}

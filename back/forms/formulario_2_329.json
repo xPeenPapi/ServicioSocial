@@ -1,0 +1,17 @@
+{
+  "salaid": "91572",
+  "userId": "2",
+  "username": "Manuel",
+  "tituloform": "SI",
+  "questions": [
+    {
+      "numero": 1,
+      "tipo": "verdadero-falso",
+      "question": "Hola",
+      "correctAnswerIndex": 0,
+      "tiempo": 10,
+      "retroalimentacion": "si",
+      "valor": "un-punto"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+.medium-size {
+  min-height: 500px;
+  max-height: 600px;
+  object-fit: cover;
+}
+
+.absolute {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.relative {
+  position: relative;
+  font-size: 0;
+}
+
+.md-width {
+  max-width: 600px;
+}
+
+.blacky {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.transparent-white-btn {
+  border: solid 1px white;
+  background-color: rgba(0, 0, 0, 0.1);
+  color: white;
+}
+
+.transparent-white-btn:hover {
+  border: solid 1px white;
+  background-color: rgba(0, 0, 0, 0.1);
+  color: white;
+}
+
+:root {
+  --primary-color: rgb(48, 193, 130);
+  --white-color: #fff;
+}
+
+.primary-color-btn {
+  background-color: var(--primary-color) !important;
+  color: var(--white-color) !important;
+}
+
+.prueba {
+  font-size: 0.5rem !important;
+}

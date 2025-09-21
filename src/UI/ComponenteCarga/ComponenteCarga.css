@@ -1,0 +1,16 @@
+dialog {
+  border: none;
+}
+
+.dialog-carga {
+  border-top: 8px solid rgb(51, 189, 129);
+  margin: 0 auto;
+  top: 30%;
+}
+
+@media only screen and (max-width: 500px) {
+  .contenedor-spinners > * {
+    width: 20px;
+    height: 20px;
+  }
+}

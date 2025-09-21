@@ -1,0 +1,32 @@
+{
+  "salaid": "23269",
+  "userId": "2",
+  "username": "Manuel",
+  "tituloform": "Intento",
+  "questions": [
+    {
+      "numero": 1,
+      "tipo": "quiz",
+      "question": "¿MelaShaco?",
+      "options": [
+        "No",
+        "No",
+        "Sí",
+        "No"
+      ],
+      "correctAnswerIndex": 2,
+      "tiempo": 10,
+      "retroalimentacion": "si",
+      "valor": "dos-puntos"
+    },
+    {
+      "numero": 2,
+      "tipo": "verdadero-falso",
+      "question": "¿Shaco Besto Champ?",
+      "correctAnswerIndex": 0,
+      "tiempo": 10,
+      "retroalimentacion": "si",
+      "valor": "cinco-puntos"
+    }
+  ]
+}

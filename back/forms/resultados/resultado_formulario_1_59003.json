@@ -1,0 +1,36 @@
+{
+  "salaid": "59003",
+  "userid": "2",
+  "username": "Ruben",
+  "participanteid": "1",
+  "calificacion": 0,
+  "tituloform": "Profes CETis",
+  "questions": [
+    {
+      "numero": 1,
+      "tipo": "quiz",
+      "question": "¿Por qué al Jaimeduende le prohibieron el viaje?",
+      "options": [
+        "Porque está pendejo",
+        "Porque no le cae bien el Ruva",
+        "Porque en realidad nos quería estafar",
+        "Como que 700 pesos nomás por un huevo y dos tortillas"
+      ],
+      "correctAnswerIndex": 2,
+      "tiempo": 40,
+      "retroalimentacion": "no",
+      "valor": "dos-puntos",
+      "electionindex": 1
+    },
+    {
+      "numero": 2,
+      "tipo": "verdadero-falso",
+      "question": "¿Ya saben tus papás que eres gay?",
+      "correctAnswerIndex": 0,
+      "tiempo": 10,
+      "retroalimentacion": "no",
+      "valor": "diez-puntos",
+      "electionindex": 1
+    }
+  ]
+}

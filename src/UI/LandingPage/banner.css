@@ -1,0 +1,18 @@
+.banner {
+  background-image: url("../../../public/banner/banner.jpg");
+  background-size: cover;
+  border-radius: 1rem;
+}
+
+.bg-container {
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 1rem;
+}
+
+.md-width {
+  max-width: 750px;
+}
+
+.contenido-interno-banner {
+  background: none;
+}

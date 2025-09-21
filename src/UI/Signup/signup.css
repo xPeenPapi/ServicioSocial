@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --primary-color: rgb(48, 193, 130);
+  --white-color: #fff;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.form {
+  background-color: var(--white-color);
+  padding: 2rem;
+  border-radius: 0.75rem;
+  color: rgb(133, 133, 133);
+  font-weight: bold;
+  max-width: 615px;
+  width: 90%;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.white-btn {
+  background-color: var(--white-color);
+  border: 2px solid rgb(133, 133, 133);
+  border-radius: 2rem;
+  padding: 0.5rem 3rem;
+  color: rgb(133, 133, 133);
+}
+
+.green-btn {
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  border-radius: 2rem;
+  border: none;
+  padding: 0.5rem 3rem;
+}
+
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+  padding: 0.25rem 0.5rem;
+  border: 2px solid lightgray;
+  outline: none;
+  border-radius: 0.5rem;
+}
+
+div > span {
+  font-size: 0.75rem;
+}
+
+.form > button:hover {
+  cursor: pointer;
+  transform: scale(1.025);
+}
+
+hr {
+  color: rgb(238, 237, 237);
+  border: 1px solid rgb(238, 237, 237);
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.flex {
+  display: flex;
+  gap: 1rem;
+}
+
+.formulario-registro {
+  background-color: var(--white-color);
+  padding: 2rem;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 100%;
+  max-width: 450px;
+}
+
+.contenedor-interno,
+.contenedor-correo {
+  display: flex;
+  flex-direction: column;
+}
+
+.contenedor-input {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.formulario {
+  margin: 1rem;
+}
+
+.green-btn:disabled {
+  background-color: rgb(122, 210, 172);
+  color: #f0f0f0;
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
+@media only screen and (max-width: 400px) {
+  .small-font {
+    font-size: 0.8rem;
+  }
+}

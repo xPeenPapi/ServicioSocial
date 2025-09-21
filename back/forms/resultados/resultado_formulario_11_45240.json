@@ -1,0 +1,84 @@
+{
+  "salaid": "45240",
+  "userid": "2",
+  "username": "Zapien",
+  "participanteid": "11",
+  "calificacion": 2,
+  "tituloform": "Capitales",
+  "questions": [
+    {
+      "numero": 1,
+      "tipo": "quiz",
+      "question": "¿Cuál es la capital de México?",
+      "options": [
+        "Ciudad de México",
+        "Guadalajara",
+        "Monterrey",
+        "Toluca"
+      ],
+      "correctAnswerIndex": 0,
+      "tiempo": 5,
+      "retroalimentacion": "si",
+      "valor": "dos-puntos",
+      "electionindex": 3
+    },
+    {
+      "numero": 2,
+      "tipo": "verdadero-falso",
+      "question": "¿La capital de Estados Unidos es Nueva York?",
+      "correctAnswerIndex": 1,
+      "tiempo": 5,
+      "retroalimentacion": "si",
+      "valor": "dos-puntos",
+      "electionindex": 0
+    },
+    {
+      "numero": 3,
+      "tipo": "quiz",
+      "question": "¿Cual es la capital de España?",
+      "options": [
+        "Valencia",
+        "Barcelona",
+        "Madrid",
+        "Valladolid"
+      ],
+      "correctAnswerIndex": 2,
+      "tiempo": 6,
+      "retroalimentacion": "si",
+      "valor": "dos-puntos",
+      "electionindex": 2
+    },
+    {
+      "numero": 4,
+      "tipo": "quiz",
+      "question": "¿Cual es la capital de Argentina?",
+      "options": [
+        "La Plata",
+        "Buenos Aires",
+        "Rosario",
+        "Montevideo"
+      ],
+      "correctAnswerIndex": 1,
+      "tiempo": 0,
+      "retroalimentacion": "si",
+      "valor": "dos-puntos",
+      "electionindex": 2
+    },
+    {
+      "numero": 5,
+      "tipo": "quiz",
+      "question": "Cual es la Capital de Congo",
+      "options": [
+        "Kananga",
+        "Gungu",
+        "Manono",
+        "Brazzaville"
+      ],
+      "correctAnswerIndex": 3,
+      "tiempo": 20,
+      "retroalimentacion": "si",
+      "valor": "dos-puntos",
+      "electionindex": 1
+    }
+  ]
+}

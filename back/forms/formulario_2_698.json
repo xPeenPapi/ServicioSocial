@@ -1,0 +1,28 @@
+{
+  "salaid": "93108",
+  "userId": "2",
+  "username": "Manuel",
+  "tituloform": "prueba",
+  "questions": [
+    {
+      "numero": 1,
+      "tipo": "quiz",
+      "question": "dawaq",
+      "options": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "correctAnswerIndex": 0,
+      "tiempo": 30
+    },
+    {
+      "numero": 2,
+      "tipo": "verdadero-falso",
+      "question": "dawdwadwa",
+      "correctAnswerIndex": 1,
+      "tiempo": 30
+    }
+  ]
+}

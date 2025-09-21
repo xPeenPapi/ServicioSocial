@@ -1,0 +1,46 @@
+{
+  "salaid": "1111",
+  "userId": "2312",
+  "username": "tata",
+  "participanteid": "003",
+  "calificacion": " 0",
+  "tituloform": "forumalrio de ejemplo",
+  "questions": [
+    {
+      "question": "¿Cuál es la capital de México?",
+      "options": [
+        "Guadalajara",
+        "Monterrey",
+        "Ciudad de México",
+        "Puebla"
+      ],
+      "correctAnswerIndex": 2,
+      "electionindex": 1,
+      "tiempo": 33
+    },
+    {
+      "question": "¿Cuánto es 5 x 6?",
+      "options": [
+        "11",
+        "30",
+        "56",
+        "26"
+      ],
+      "correctAnswerIndex": 1,
+      "electionindex": 3,
+      "tiempo": 33
+    },
+    {
+      "question": "¿Cuál es el océano más grande?",
+      "options": [
+        "Atlántico",
+        "Índico",
+        "Ártico",
+        "Pacífico"
+      ],
+      "correctAnswerIndex": 3,
+      "electionindex": 2,
+      "tiempo": 33
+    }
+  ]
+}

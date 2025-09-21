@@ -1,0 +1,20 @@
+{
+  "salaid": "91572",
+  "userid": "2",
+  "username": "Ruben",
+  "participanteid": "1",
+  "calificacion": 1,
+  "tituloform": "SI",
+  "questions": [
+    {
+      "numero": 1,
+      "tipo": "verdadero-falso",
+      "question": "Hola",
+      "correctAnswerIndex": 0,
+      "tiempo": 3,
+      "retroalimentacion": "si",
+      "valor": "un-punto",
+      "electionindex": 0
+    }
+  ]
+}

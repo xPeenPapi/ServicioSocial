@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+  --primary-color: rgb(48, 193, 130);
+  --secondary-color: rgb(88, 206, 155);
+  --terciary-color: rgb(140, 211, 180);
+  --fourth-color: rgb(148, 219, 188);
+  --primary-font-color: rgb(255, 255, 255);
+}
+
+.contenedor-raiz-leaderboard {
+  min-height: 100vh;
+  background-image: url("../../../public/fondo/fondo-salon-cuadrado.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.dark-bg-container {
+  min-height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.leaderboard {
+  max-height: 500px;
+  overflow-y: scroll;
+  scrollbar-color: var(--primary-color) #fff;
+}
+
+.leaderboard-header {
+  background-color: var(--primary-color);
+  color: var(--primary-font-color);
+  border-radius: 0.25rem;
+}
+
+.leaderboard-header > span,
+.contenedor-posicion > span {
+  font-size: 1rem;
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+}
+
+.contenedor-posicion {
+  background-color: var(--primary-font-color);
+  border-radius: 0.25rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .leaderboard-header > span,
+  .contenedor-posicion > span {
+    font-size: 0.75rem;
+  }
+}

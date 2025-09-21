@@ -1,0 +1,32 @@
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+:root {
+  --primary-color: rgb(48, 193, 130);
+  --white-color: #fff;
+}
+
+.gray-text {
+  text-decoration: none;
+  color: #333333;
+}
+
+.shadow {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.primary-color-btn {
+  background-color: var(--primary-color) !important;
+  color: var(--white-color) !important;
+}
+#logo {
+  width: 100px;
+  margin: -30px;
+  margin-right: 10px;
+
+}

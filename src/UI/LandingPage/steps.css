@@ -1,0 +1,17 @@
+:root {
+  --primary-color: rgb(85, 213, 158);
+  --secondary-color: rgb(117, 219, 174);
+  --white-color: #fff;
+}
+
+.bg-light-green {
+  background-color: var(--primary-color);
+}
+
+.bg-standard-green {
+  background-color: var(--secondary-color);
+}
+
+.shadow {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}

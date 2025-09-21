@@ -1,0 +1,23 @@
+{
+  "salaid": "75582",
+  "userId": "2",
+  "username": "Manuel",
+  "tituloform": "Si",
+  "questions": [
+    {
+      "numero": 1,
+      "tipo": "quiz",
+      "question": "Hola",
+      "options": [
+        "Si",
+        "No",
+        "talvez",
+        "quien sabe"
+      ],
+      "correctAnswerIndex": 0,
+      "tiempo": 10,
+      "retroalimentacion": "si",
+      "valor": "dos-puntos"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "salaid": "1111",
+  "userId": "2312",
+  "tituloform": "forumalrio de ejemplo",
+  "questions": [
+    {
+      "question": "¿Cuál es la capital de México?",
+      "options": [
+        "Guadalajara",
+        "Monterrey",
+        "Ciudad de México",
+        "Puebla"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "question": "¿Cuánto es 5 x 6?",
+      "options": [
+        "11",
+        "30",
+        "56",
+        "26"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "question": "¿Cuál es el océano más grande?",
+      "options": [
+        "Atlántico",
+        "Índico",
+        "Ártico",
+        "Pacífico"
+      ],
+      "correctAnswerIndex": 3
+    }
+  ]
+}

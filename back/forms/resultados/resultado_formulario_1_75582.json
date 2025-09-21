@@ -1,0 +1,26 @@
+{
+  "salaid": "75582",
+  "userid": "2",
+  "username": "Ruben",
+  "participanteid": "1",
+  "calificacion": 0,
+  "tituloform": "Si",
+  "questions": [
+    {
+      "numero": 1,
+      "tipo": "quiz",
+      "question": "Hola",
+      "options": [
+        "Si",
+        "No",
+        "talvez",
+        "quien sabe"
+      ],
+      "correctAnswerIndex": 0,
+      "tiempo": 8,
+      "retroalimentacion": "si",
+      "valor": "dos-puntos",
+      "electionindex": 1
+    }
+  ]
+}

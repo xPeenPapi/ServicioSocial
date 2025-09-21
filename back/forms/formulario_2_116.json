@@ -1,0 +1,32 @@
+{
+  "salaid": "26148",
+  "userId": "2",
+  "username": "Manuel",
+  "tituloform": "Prueba2",
+  "questions": [
+    {
+      "numero": 1,
+      "tipo": "quiz",
+      "question": "¿Sí?",
+      "options": [
+        "No",
+        "Sí",
+        "No",
+        "No"
+      ],
+      "correctAnswerIndex": 1,
+      "tiempo": 30,
+      "retroalimentacion": "si",
+      "valor": "cinco-puntos"
+    },
+    {
+      "numero": 2,
+      "tipo": "verdadero-falso",
+      "question": "Jax besto champ?",
+      "correctAnswerIndex": 0,
+      "tiempo": 30,
+      "retroalimentacion": "si",
+      "valor": "cinco-puntos"
+    }
+  ]
+}

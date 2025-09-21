@@ -1,0 +1,77 @@
+{
+  "salaid": "45240",
+  "userId": "2",
+  "username": "Manuel",
+  "tituloform": "Capitales",
+  "questions": [
+    {
+      "numero": 1,
+      "tipo": "quiz",
+      "question": "¿Cuál es la capital de México?",
+      "options": [
+        "Ciudad de México",
+        "Guadalajara",
+        "Monterrey",
+        "Toluca"
+      ],
+      "correctAnswerIndex": 0,
+      "tiempo": 30,
+      "retroalimentacion": "si",
+      "valor": "dos-puntos"
+    },
+    {
+      "numero": 2,
+      "tipo": "verdadero-falso",
+      "question": "¿La capital de Estados Unidos es Nueva York?",
+      "correctAnswerIndex": 1,
+      "tiempo": 30,
+      "retroalimentacion": "si",
+      "valor": "dos-puntos"
+    },
+    {
+      "numero": 3,
+      "tipo": "quiz",
+      "question": "¿Cual es la capital de España?",
+      "options": [
+        "Valencia",
+        "Barcelona",
+        "Madrid",
+        "Valladolid"
+      ],
+      "correctAnswerIndex": 2,
+      "tiempo": 30,
+      "retroalimentacion": "si",
+      "valor": "dos-puntos"
+    },
+    {
+      "numero": 4,
+      "tipo": "quiz",
+      "question": "¿Cual es la capital de Argentina?",
+      "options": [
+        "La Plata",
+        "Buenos Aires",
+        "Rosario",
+        "Montevideo"
+      ],
+      "correctAnswerIndex": 1,
+      "tiempo": 30,
+      "retroalimentacion": "si",
+      "valor": "dos-puntos"
+    },
+    {
+      "numero": 5,
+      "tipo": "quiz",
+      "question": "Cual es la Capital de Congo",
+      "options": [
+        "Kananga",
+        "Gungu",
+        "Manono",
+        "Brazzaville"
+      ],
+      "correctAnswerIndex": 3,
+      "tiempo": 30,
+      "retroalimentacion": "si",
+      "valor": "dos-puntos"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "salaid": "17210",
+  "userId": "2",
+  "username": "Manuel",
+  "tituloform": "sdgds",
+  "questions": [
+    {
+      "numero": 1,
+      "tipo": "quiz",
+      "question": "sdgsdgs",
+      "options": [
+        "sdgsdg",
+        "sdgsdg",
+        "gsdgsdg",
+        "dsgsdgsdg"
+      ],
+      "correctAnswerIndex": 0,
+      "tiempo": 30,
+      "retroalimentacion": "si",
+      "valor": "un-punto"
+    }
+  ]
+}
